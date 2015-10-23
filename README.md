@@ -4,7 +4,7 @@
 
 [![Build Status](https://travis-ci.org/hortinstein/robotjs-combos.svg)](https://travis-ci.org/hortinstein/robotjs-combos)
 
-Easy node API to allow for the easy use of key combinations in robot.js
+Easy node API to allow for the easy use of key combinations in [robot.js](https://github.com/octalmage/robotjs)
 
 I was trying to do a simple chain of keyboard commands, this one does a quick loop around my workspaces (2X2) in linux using the standard `ctrl+alt+arrow`:
 
