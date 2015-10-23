@@ -38,7 +38,7 @@ robotjsCombos(command,function(){
 ```
 API Spec:
 
-`robotjs_combo(command_string,callback,optional_timeout); `
+`robotjs_combo(command_array,callback,optional_timeout); `
 
 The optional timeout is the length of time between presses.  I may add other ways to tune this in the future
 
