@@ -1,6 +1,7 @@
 
 #robotjs-combos
 ![](http://i200.photobucket.com/albums/aa25/LiNcOlNgArCiA07/ryu-combo.gif)
+
 [![Build Status](https://travis-ci.org/hortinstein/robotjs-combos.svg)](https://travis-ci.org/hortinstein/robotjs-combos)
 
 Easy node API to allow for the easy use of key combinations in robot.js
