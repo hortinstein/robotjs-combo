@@ -6,8 +6,6 @@
 
 Easy node API to allow for the easy use of key combinations in [robot.js](https://github.com/octalmage/robotjs)
 
-I was trying to do a simple chain of keyboard commands, this one does a quick loop around my workspaces (2X2) in linux using the standard `ctrl+alt+arrow`:
-
 #### Installation
 ``` sh
 $ npm install robotjs-combos
@@ -15,7 +13,7 @@ $ npm install robotjs-combos
 
 #### Quick Usage 
 
-The module takes an array of key combonations executed in order:
+I was trying to do a simple chain of keyboard commands, this one does a quick loop around my workspaces (2X2) in linux using the standard `ctrl+alt+arrow`.  The module takes an array of key combonations executed in order:
 
 ``` js
 robotjs_combo = require('robotjs-combos');
