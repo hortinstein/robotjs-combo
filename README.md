@@ -1,6 +1,6 @@
 
 #robotjs-combos
-
+![](http://vignette4.wikia.nocookie.net/marvelvscapcom/images/1/1c/Kens_kick_combo.gif/revision/latest?cb=20120220190807)
 [![Build Status](https://travis-ci.org/hortinstein/robotjs-combos.svg)](https://travis-ci.org/hortinstein/robotjs-combos)
 
 Easy node API to allow for the easy use of key combinations in robot.js
