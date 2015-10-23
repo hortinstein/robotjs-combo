@@ -71,4 +71,4 @@ setTimeout(function(){
 ...ugly.
 
 So instead I wrote a quick module that can be used instead
-
+![](http://i.imgur.com/j8FHTqk.gif)
