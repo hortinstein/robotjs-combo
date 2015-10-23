@@ -1,0 +1,32 @@
+{
+  "name": "robotjs-combo",
+  "version": "1.0.0",
+  "description": "Easy node API to allow for the easy use of key combinations in robot.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hortinstein/robotjs-combos.git"
+  },
+  "keywords": [
+    "robotjs",
+    "automation",
+    "keyboard",
+    "shortcuts"
+  ],
+  "author": "hortinstein",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hortinstein/robotjs-combos/issues"
+  },
+  "homepage": "https://github.com/hortinstein/robotjs-combos#readme",
+  "dependencies": {
+    "async": "^1.4.2",
+    "robotjs": "^0.3.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.3"
+  }
+}
