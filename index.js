@@ -36,9 +36,10 @@ var processCommand = function (command,callback) {
    	 		});
 		});
     } else {
-        //console.log("single element detected")
-    	robot.keyTap(command);
-    	callback();
+        robot.keyTap(command);
+        setTimeout(function() {
+			callback();
+		}, DELAY);
     }
 }
 
@@ -51,21 +52,12 @@ var processComplexCommand = function(commands, callback, OPTdelay){
 		async.mapSeries(commands, processCommand,function () {	
 			callback();	
 		})
-	} else if (Array.isArray(commands)){
-		processCommand(commands,function () {
-        	callback();
-        });		
-    } else {
+	} else {
         processCommand(commands,function () {
         	callback();
         });
     }
 }
-
-var commands = [["alt","control","right"],
-				["alt","control","down"],
-				["alt","control","left"],
-				["alt","control","up"]]
 
 module.exports = processComplexCommand
 
