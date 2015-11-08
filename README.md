@@ -8,7 +8,7 @@ Easy node API to allow for the easy use of key combinations in [robot.js](https:
 
 #### Installation
 ``` sh
-$ npm install robotjs-combos
+$ npm install robotjs-combo
 ```
 
 #### Quick Usage 
