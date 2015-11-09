@@ -1,5 +1,5 @@
 
-#robotjs-combos
+#robotjs-combo
 ![](http://i200.photobucket.com/albums/aa25/LiNcOlNgArCiA07/ryu-combo.gif)
 
 [![Build Status](https://travis-ci.org/hortinstein/robotjs-combos.svg)](https://travis-ci.org/hortinstein/robotjs-combos)
@@ -16,7 +16,7 @@ $ npm install robotjs-combo
 I was trying to do a simple chain of keyboard commands, this one does a quick loop around my workspaces (2X2) in linux using the standard `ctrl+alt+arrow`.  The module takes an array of key combonations executed in order:
 
 ``` js
-robotjs_combo = require('robotjs-combos');
+robotjs_combo = require('robotjs-combo');
 var commands = 	[["alt","control","right"],
 		["alt","control","down"],
 		["alt","control","left"],
