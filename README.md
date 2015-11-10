@@ -2,7 +2,7 @@
 #robotjs-combo
 ![](http://i200.photobucket.com/albums/aa25/LiNcOlNgArCiA07/ryu-combo.gif)
 
-[![Build Status](https://travis-ci.org/hortinstein/robotjs-combos.svg)](https://travis-ci.org/hortinstein/robotjs-combos)
+[![Build Status](https://travis-ci.org/hortinstein/robotjs-combo.svg)](https://travis-ci.org/hortinstein/robotjs-combo)
 [![Build status](https://ci.appveyor.com/api/projects/status/o8voc2ayojua8rya?svg=true)](https://ci.appveyor.com/project/hortinstein/robotjs-combo)
 
 Easy node API to allow for the easy use of key combinations in [robot.js](https://github.com/octalmage/robotjs)
