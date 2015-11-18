@@ -27,7 +27,7 @@ var executeKeyUp = function (command, callback) {
 var processCommand = function (command,callback) {
 	test_console.log('pressing ' + command);
 	if (Array.isArray(command)){
-		holds = command.slice(0,-1); //cuts off all but the last key
+		var holds = command.slice(0,-1); //cuts off all but the last key
         async.map(holds, executeKeyDown, function(){
    	 		test_console.log('tapping ' + command.slice(-1)[0] );
    	 		robot.keyTap(command.slice(-1)[0] );
