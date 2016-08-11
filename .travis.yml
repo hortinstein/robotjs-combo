@@ -7,8 +7,8 @@ node_js:
   - 0.10
   - 0.12
   - 4.0.0
-  - iojs-v2
-  - iojs-v3
+  - latest
+  - node
 
 addons:
   apt:
